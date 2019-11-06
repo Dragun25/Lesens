@@ -15,4 +15,4 @@ function fbn($z)
 }
 
 
-array_map('xxx', $bufer)
+array_map('xxx', $bufer);

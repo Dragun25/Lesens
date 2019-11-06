@@ -1,0 +1,12 @@
+Helium:
+login: dragun2552
+server: @students.a-level.com.ua
+password: OceansEleveN
+
+pwd -  где я
+
+ls - список файлов
+cd / - переход в корень
+ls -l длинное представление папок
+ls - покащать мне всё
+--re
