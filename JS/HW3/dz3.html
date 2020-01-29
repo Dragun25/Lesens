@@ -1,0 +1,93 @@
+<!--<!doctype html>-->
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="building">
+<!--начало подезд этаж-->
+<input class="btn btn-primary" type="reset" value="Reset" onclick="doma()">
+<!--<p>-->
+    <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Подезд и этаж</a>
+<!--</p>-->
+
+    <div class="row">
+        <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample1">
+                <div class="card card-body">
+                <pre>
+                    <input type="text" id="etagnost" name="etagnost1" placeholder="количество этажей в доме" class="etagnost">
+                    <input type="text" id="na_etag" name="na_etag1" placeholder="кол-во квартир на этаж" class="na_etag">
+                    <input type="text" id="nom_kvartiri" name="nom_kvartiri1" placeholder="№ квартиры" class="nom_kvartiri">
+
+                    <button type="submit" value="Ввойти" class="submit" onclick="doma()">Проверить</button>
+                    <p class="validate"></p>
+                </pre>
+                </div>
+            </div>
+        </div>
+    </div>
+<br>
+<!--конец подезд этаж-->
+</div>
+
+<!--начало swish переделать if-->
+<input class="btn btn-primary" type="reset" value="switch to If" onclick="swichIf()">
+
+<!--конец swish переделать if-->
+
+<!--начало Number: age-->
+<input class="btn btn-primary" type="reset" value="age to year" onclick="age()">
+<!--конец sNumber: age-->
+
+<!--начало ты бяка-->
+<input class="btn btn-primary" type="reset" value="you are Byaka" onclick="confirmByaka()">
+<!--конец ты бяка-->
+
+<!--начало fio-->
+<input class="btn btn-primary" type="reset" value="Qeshens FIO" onclick="fio()">
+<!--конец fio-->
+
+<!--начало fio-->
+<input class="btn btn-primary" type="reset" value="Qeshens FIO" onclick="fioter()">
+<!--конец fio-->
+
+<!--начало fio-->
+<input class="btn btn-primary" type="reset" value="Qeshens FIO" onclick="fioterif()">
+<!--конец fio-->
+
+<!--начало обмен валют-->
+<input class="btn btn-primary" type="reset" value="valuta" onclick="valuta()">
+<!--конец обмен валют-->
+
+<!--начало обмен валют(не зависит от регистра)-->
+<input class="btn btn-primary" type="reset" value="valuta" onclick="valutalov()">
+<!--конец обмен валют-->
+
+<!--начало обмен валют(Покупка/продажа)-->
+<input class="btn btn-primary" type="reset" value="valutaPokPro" onclick="valutaPokProd()">
+<!--конец обмен валют-->
+
+<!--начало Камень-ножници-бумага-->
+<input class="btn btn-primary" type="reset" value="kamNogBum" onclick="kamNogBum()">
+<!--конец Камень-ножници-бумага-->
+
+<!--начало Камень-ножници-бумага-->
+<input class="btn btn-primary" type="reset" value="kamNogBum" onclick="kamNogBum()">
+<!--конец Камень-ножници-бумага-->
+
+
+
+
+<script src="dz3.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
+</body>
+</html>
